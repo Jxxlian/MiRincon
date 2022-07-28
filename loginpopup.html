@@ -1,0 +1,19 @@
+<div class="overlay" id="overlay">
+    <div class="popup" id="popup">
+        <a href="#" class="btn-cerrar-popup" id="btn-cerrar-popup"><b>X</b></a>
+        <h3>Iniciar sesión</h3>
+        <form method="POST" action="login.php">
+            <div class="contenedor-inputs">
+                <input type="text" name="usuario" pattern="[A-Za-z]{4,8}" placeholder="Usuario" autocomplete="off" title="El usuario debe tener entre 4 y 8 letras UNICAMENTE">
+                <input type="password" name="contra" pattern="[0-9]{4,8}" placeholder="Contraseña" autocomplete="off" title="La contraseña debe tener entre 4 y 8 números UNICAMENTE">
+            </div>
+            <input type="submit" class="btn-submit" value="Ingresar">
+        </form>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+
+
+
+
