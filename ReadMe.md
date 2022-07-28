@@ -24,7 +24,7 @@ En su mayoría está programado con PHP aunque también utilizo HTML, CSS y JS. 
 
 ## Variables de entorno
 Para que el proyecto funcione correctamente es necesario descargar PHPMailer y CKEDITOR, son las dos librerías externas que estoy utilizando. En el caso de PHPMailar ademas de descargar la librería es necesario configurar las variables de entorno para determinar los datos requeridos para poder recibir mail efectivamente.
-También sería necesario asignar usuario/contraseña al inicio de sesión. De esto último dejo un ejemplo en [env.example](https://github.com/Jxxlian/BlogMiRincon/blob/master/.env) 
+También sería necesario asignar usuario/contraseña al inicio de sesión. De esto último dejo un ejemplo en [env.example](https://github.com/Jxxlian/MiRincon/blob/main/.env) 
 
  ## Test App
  [InfinityFreeApp Test](http://mirincon.infinityfreeapp.com/index.php)
